@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from typing import Dict, List, Union
 
 conn = psycopg2.connect(dbname='d3du8791pe6p5s', user='jzbgjnwqfgybsp', 
-                        password='d0c1361e937da4f78d9fbebb3b4c7d17108e1bfb3829f81f613a00a189b9501e', host='ec2-3-219-135-162.compute-1.amazonaws.com')
+                        password='d0c1361e937da4f78d9fbebb3b4c7d17108e1bfb3829f81f613a00a189b9501e', host='ec2-44-210-36-247.compute-1.amazonaws.com')
 
 cursor = conn.cursor()
 
